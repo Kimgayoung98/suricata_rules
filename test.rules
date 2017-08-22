@@ -1,0 +1,92 @@
+alert tcp any any -> any 80 (msg:"gilgil rule"; content:"GET /"; content:"Host: www.gilgil.net"; sid:10001; rev:1;)
+
+alert tcp any any -> any 80 (msg:"naver rule"; content:"GET /"; content:"Host: www.naver.com"; sid:10002; rev:1;)
+
+alert tcp any any -> any 80 (msg:"avnana rule"; content:"GET /"; content:"Host: www.avnana.com"; sid:10003; rev:1;)
+
+alert tcp any any -> any 80 (msg:"snoopspy rule"; content:"GET /download HTTP/1."; content:"Host: www.snoopspy.com"; sid:10004; rev:1;)
+
+alert tcp any any -> any 80 (msg: "uriminzokkiri rule"; content: "GET /"; content:"Host: www.uriminzokkiri.com"; sid:10005; rev:1;)
+
+alert tcp any any -> any 80 (msg: "sex rule"; content: "GET /"; content:"Host: sex.com; sid:10006"; rev:1;)
+
+alert tcp any any -> any 80 (msg:"ilbe rule"; content:"GET /"; content:"Host: www.ilbe.com"; sid:10007; rev:1;)
+
+alert tcp any any -> any 80 (msg:"faa25 rule"; content:"GET /"; content:"Host: www.faa25.com"; sid:10008; rev:1;)
+
+alert tcp any any -> any 80 (msg:"narutoxxx rule"; content:"GET /"; content:"Host: www.narutoxxx.com"; sid:10009; rev:1;)
+
+alert tcp any any -> any 80 (msg:"umj262 rule"; content:"GET /"; content:"Host: www.umj262.com"; sid:10010; rev:1;)
+
+alert tcp any any -> any 80 (msg:"minjok rule"; content:"GET /"; content:"Host: www.minjok.com"; sid:10011; rev:1;)
+
+alert tcp any any -> any 80 (msg:"phishtank rule"; content:"GET /"; content:"Host: www.phishtank.com"; sid:10012; rev:1;)
+
+alert tcp any any -> any 80 (msg:"chosonsinbo rule"; content:"GET /"; content:"Host: www.chosonsinbo.com"; sid:10013; rev:1;)
+
+alert tcp any any -> any 80 (msg:"bamwar25 rule"; content:"GET /"; content:"Host: www.bamwar25.com"; sid:10014; rev:1;)
+
+alert tcp any any -> any 80 (msg:"kcna rule"; content:"GET /"; content:"Host: kcna.kp"; sid:10015; rev:1;)
+
+alert tcp any any -> any 80 (msg:"mtbucks rule"; content:"GET /"; content:"Host: www.mtbucks.com"; sid:10016; rev:1;)
+
+alert tcp any any -> any 80 (msg:"graphgame rule"; content:"GET /"; content:"Host: www.graphgame.net"; sid:10017; rev:1;)
+
+alert tcp any any -> any 80 (msg:"hitomi rule"; content:"GET /"; content:"Host: hitomi.la"; sid:10018; rev:1;)
+
+alert tcp any any -> any 80 (msg:"mujige53770 rule"; content:"GET /"; content:"Host: mujige53770.wixsite.com"; sid:10019; rev:1;)
+
+alert tcp any any -> any 80 (msg:"torenzoa rule"; content:"GET /"; content:"Host: www.torenzoa.net"; sid:10020; rev:1;)
+
+alert tcp any any -> any 80 (msg:"torrenthaja rule"; content:"GET /"; content:"Host: www.torrenthaja.com"; sid:10021; rev:1;)
+
+alert tcp any any -> any 80 (msg:"4shared rule"; content:"GET /"; content:"Host: www.4shared.com"; sid:10022; rev:1;)
+
+alert tcp any any -> any 80 (msg:"uriminzokkiri rule"; content:"GET /"; content:"Host: www.uriminzokkiri.com"; sid:10023; rev:1;)
+
+alert tcp any any -> any 80 (msg:"bamtoki rule"; content:"GET /"; content:"Host: webtoon.bamtoki.com"; sid:10024; rev:1;)
+
+alert tcp any any -> any 80 (msg:"bob wiki rule"; content:"GET /"; content:"Host: kitribob.wiki"; sid:10025; rev:1;)
+
+
+
+alert tcp any any -> any 80 (msg:"gilgil rule"; content:"GET /"; content:"Host: gilgil.net"; sid:10001; rev:1;)
+
+alert tcp any any -> any 80 (msg:"naver rule"; content:"GET /"; content:"Host: naver.com"; sid:10002; rev:1;)
+
+alert tcp any any -> any 80 (msg:"avnana rule"; content:"GET /"; content:"Host: avnana.com"; sid:10003; rev:1;)
+
+alert tcp any any -> any 80 (msg:"snoopspy rule"; content:"GET /download HTTP/1."; content:"Host: snoopspy.com"; sid:10004; rev:1;)
+
+alert tcp any any -> any 80 (msg: "uriminzokkiri rule"; content: "GET /"; content:"Host: uriminzokkiri.com"; sid:10005; rev:1;)
+
+alert tcp any any -> any 80 (msg: "sex rule"; content: "GET /"; content:"Host: sex.com; sid:10006"; rev:1;)
+
+alert tcp any any -> any 80 (msg:"ilbe rule"; content:"GET /"; content:"Host: ilbe.com"; sid:10007; rev:1;)
+
+alert tcp any any -> any 80 (msg:"faa25 rule"; content:"GET /"; content:"Host: faa25.com"; sid:10008; rev:1;)
+
+alert tcp any any -> any 80 (msg:"narutoxxx rule"; content:"GET /"; content:"Host: narutoxxx.com"; sid:10009; rev:1;)
+
+alert tcp any any -> any 80 (msg:"umj262 rule"; content:"GET /"; content:"Host: umj262.com"; sid:10010; rev:1;)
+
+alert tcp any any -> any 80 (msg:"minjok rule"; content:"GET /"; content:"Host: minjok.com"; sid:10011; rev:1;)
+
+alert tcp any any -> any 80 (msg:"phishtank rule"; content:"GET /"; content:"Host: phishtank.com"; sid:10012; rev:1;)
+
+alert tcp any any -> any 80 (msg:"chosonsinbo rule"; content:"GET /"; content:"Host: chosonsinbo.com"; sid:10013; rev:1;)
+
+alert tcp any any -> any 80 (msg:"bamwar25 rule"; content:"GET /"; content:"Host: bamwar25.com"; sid:10014; rev:1;)
+
+alert tcp any any -> any 80 (msg:"kcna rule"; content:"GET /"; content:"Host: kcna.kp"; sid:10015; rev:1;)
+
+alert tcp any any -> any 80 (msg:"mtbucks rule"; content:"GET /"; content:"Host: mtbucks.com"; sid:10016; rev:1;)
+
+alert tcp any any -> any 80 (msg:"graphgame rule"; content:"GET /"; content:"Host: graphgame.net"; sid:10017; rev:1;)
+
+alert tcp any any -> any 80 (msg:"torenzoa rule"; content:"GET /"; content:"Host: torenzoa.net"; sid:10020; rev:1;)
+
+alert tcp any any -> any 80 (msg:"torrenthaja rule"; content:"GET /"; content:"Host: torrenthaja.com"; sid:10021; rev:1;)
+
+alert tcp any any -> any 80 (msg:"4shared rule"; content:"GET /"; content:"Host: 4shared.com"; sid:10022; rev:1;)
+
